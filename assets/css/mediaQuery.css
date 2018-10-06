@@ -1,0 +1,49 @@
+
+
+/* Media Query max-width: 768px*/
+@media screen and (max-width: 980px) {
+    #logo{
+        width: 40%;
+    }
+      nav{
+        width: 60%; 
+        text-align: right;
+        padding-right: 25px;
+    }
+}
+
+
+
+ 
+/* Media Query max-width: 768px*/
+@media screen and (max-width: 768px) {
+   #logo{
+    width: 40%;
+    }
+
+  nav{
+    width: 60%;
+    float: right; 
+    }
+ }
+
+
+
+  /* Media Query max-width: 640px*/
+@media screen and (max-width: 640px) {
+  nav{
+    position: static; /*does not seems to make a difference but was recommended in homework instructions*/
+    width: 100%;
+    text-align: center;
+   }
+   .auth-image{
+   width: 100%;
+   margin-top: 15px;
+   padding-bottom: 15px;
+    }
+ 
+   #logo{
+     width: 100%;
+    }
+ 
+ }
